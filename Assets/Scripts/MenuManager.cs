@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-
-
     public void Play(string cena)
     {
         SceneManager.LoadScene(cena);
     }
+
+
 }

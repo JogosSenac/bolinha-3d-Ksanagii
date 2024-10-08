@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class BallMoviment : MonoBehaviour
@@ -9,7 +10,7 @@ public class BallMoviment : MonoBehaviour
     private Rigidbody rb;
     [SerializeField] private float velocidade;
     [SerializeField] private float forcaPulo;
-    [SerializeField] private int pontos;
+    [HideInInspector] public int pontos;
     [SerializeField] private bool estaVivo = true;
 
     [Header("Sons da Bolinha")]
@@ -21,6 +22,7 @@ public class BallMoviment : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         audioPlayer = GetComponent<AudioSource>();
+        pontos = 0;
     }
 
     void Update()
