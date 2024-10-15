@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ContadorMoedas : MonoBehaviour
 {
-    [SerializeField] private int maxPoints;
+    private int maxPoints;
     public bool checkPontos; // se os pontos for igual ou maior ao maximo de pontos, fica verdadeira, se nao fica falso;
     [SerializeField] private TextMeshProUGUI contador;
     private BallMoviment ballMoviment;
@@ -14,6 +14,8 @@ public class ContadorMoedas : MonoBehaviour
     {
         checkPontos = false;
         ballMoviment = FindObjectOfType<BallMoviment>();
+        maxPoints = GameObject.FindGameObjectsWithTag("CuboBrilhante").Length;
+        
     }
     // Update is called once per frame
     void Update()

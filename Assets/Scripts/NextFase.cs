@@ -9,8 +9,8 @@ public class NextFase : MonoBehaviour
     private ContadorMoedas contadorMoedas;
     public GameObject portal;
     [SerializeField] Material corPortal;
-    public Color transparente = new Color (1,0,0,1);
-    public Color portalAtivo = new Color (1,0,0,1);
+    [SerializeField] private Color transparente = new Color (1,0,0,1);
+    [SerializeField] private Color portalAtivo = new Color (1,0,0,1);
 
     // Start is called before the first frame update
     void Start()
@@ -30,14 +30,6 @@ public class NextFase : MonoBehaviour
             corPortal.color = portalAtivo;
         }
         
-    }
-
-    void OnTriggerEnter(Collision col)
-    {
-        //if(col.gameObject = portal)
-        //{
-        //    SceneManager.LoadScene("Fase2");
-        //}
     }
     
 }

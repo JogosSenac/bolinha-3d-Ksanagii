@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallMoviment : MonoBehaviour
 {
@@ -11,15 +13,20 @@ public class BallMoviment : MonoBehaviour
     [SerializeField] private float velocidade;
     [SerializeField] private float forcaPulo;
     [HideInInspector] public int pontos;
-    [SerializeField] private bool estaVivo = true;
+    public bool estaVivo = true;
 
     [Header("Sons da Bolinha")]
     [SerializeField] private AudioClip pulo;
     [SerializeField] private AudioClip pegaCubo;
     private AudioSource audioPlayer;
+    private ContadorMoedas contadorMoedas;
+    [SerializeField] private string ProximaFase;
+    private bool podePular;
+
 
     void Start()
     {
+        contadorMoedas = FindObjectOfType<ContadorMoedas>();
         rb = GetComponent<Rigidbody>();
         audioPlayer = GetComponent<AudioSource>();
         pontos = 0;
@@ -34,7 +41,7 @@ public class BallMoviment : MonoBehaviour
 
             transform.position += new Vector3(-1 * moveV * velocidade * Time.deltaTime, 0, moveH * velocidade * Time.deltaTime);
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && podePular)
             {
                 rb.AddForce(transform.up * forcaPulo, ForceMode.Impulse);
                 audioPlayer.PlayOneShot(pulo);
@@ -50,13 +57,39 @@ public class BallMoviment : MonoBehaviour
             audioPlayer.PlayOneShot(pegaCubo);
             pontos++;
         }
+
+        if(other.gameObject.CompareTag("Portal") && contadorMoedas.checkPontos)
+        {
+
+            SceneManager.LoadScene(ProximaFase);
+            
+        }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
-        if(collision.gameObject.CompareTag("Agua"))
+        if(other.gameObject.CompareTag("Agua"))
         {
             estaVivo = false;
         }
+
+        if(other.gameObject.CompareTag("Chao"))
+        {
+            podePular = true;
+        }
     }
+
+    private void OnCollisionStay(Collision other)
+    {
+        
+    }
+
+        private void OnCollisionExit(Collision other) {
+        
+        if(other.gameObject.CompareTag("Chao"))
+        {
+            podePular = false;
+        }
+    }
+
 }

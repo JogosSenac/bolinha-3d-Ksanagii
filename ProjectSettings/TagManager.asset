@@ -7,6 +7,7 @@ TagManager:
   - CuboBrilhante
   - Agua
   - Portal
+  - Chao
   layers:
   - Default
   - TransparentFX
