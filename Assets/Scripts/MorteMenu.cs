@@ -34,4 +34,9 @@ public class MorteMenu : MonoBehaviour
             morteCena.SetActive(true);
         }
     }
+    
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
