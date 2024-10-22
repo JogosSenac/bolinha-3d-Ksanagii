@@ -22,7 +22,7 @@ public class BallMoviment : MonoBehaviour
     private ContadorMoedas contadorMoedas;
     [SerializeField] private string ProximaFase;
     private bool podePular;
-
+    [SerializeField] private Transform cameraTransform;
 
     void Start()
     {
@@ -47,6 +47,16 @@ public class BallMoviment : MonoBehaviour
                 audioPlayer.PlayOneShot(pulo);
             }
         }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            viraCamera(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            viraCamera(false);
+        }
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -90,6 +100,21 @@ public class BallMoviment : MonoBehaviour
         {
             podePular = false;
         }
+    }
+
+    private void viraCamera(bool tras)
+    {
+        if (tras && cameraTransform.rotation != Quaternion.Euler(20.31f, -270, 0))
+        {
+            cameraTransform.rotation = Quaternion.Euler(20.31f, -270, 0);
+            velocidade *= -1;
+        }
+        else if (cameraTransform.rotation != Quaternion.Euler(20.31f, -90, 0))
+        {
+            cameraTransform.rotation = Quaternion.Euler(20.31f, -90, 0);
+            velocidade *= -1;
+        }
+        //cameraTransform.rotation = new Vector3(cameraTransform.rotation.x, cameraTransform.rotation.y - 180, cameraTransform.rotation.z);
     }
 
 }
