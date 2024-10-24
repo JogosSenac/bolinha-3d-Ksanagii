@@ -1,0 +1,2503 @@
+fileFormatVersion: 2
+guid: 37ff80ba7346deb4780dbfc7476f9113
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Glitter-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5280
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3f38b3bda6eeb41866f2660ccdc705
+      internalID: -84209426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 5280
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077e2dc42fd3d9c4dbd826befaf61316
+      internalID: 319371156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 5280
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073c9a7011112ff4981b5b9ce56a39a0
+      internalID: 276553866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 5280
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a82cb40a38cac4c9ae857e733fa405
+      internalID: 1995425268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 5280
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78eae3ff0e3f8b4a94a90e19e59d0f2
+      internalID: -1233448854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 5280
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5863a5248d4942a4986f4d5605d96628
+      internalID: -1184174580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 5280
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a855d4e77849f4d93fa6532327e2a7
+      internalID: -1131968395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 5280
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3db761285c55e45a63684548bcd2e3
+      internalID: -2126445577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 5280
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011ce21e0ae64754ab8f39f2cdda4b63
+      internalID: -1091424674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0cbd19044e27b42b088ab7b87850e6
+      internalID: -669189934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 4800
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02a324fd8cdb3f4a86092516e081aa8
+      internalID: -1685582509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 4800
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214729e43f9670249823ac0adbc3defc
+      internalID: -1304375455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 4800
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdf26fc35312b54191f9e6007dd712a
+      internalID: 1234404654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 4800
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504349f07d01ee546bab7b3faa5714c6
+      internalID: 1157174818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 4800
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f862331b21f88e4c88d7ee8045b65c1
+      internalID: -185395795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 4800
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0386bd6d738c46244b4086b8f213e8c0
+      internalID: -1612615092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 4800
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d6f5deeb4d2d8449574a030fe7bdd9
+      internalID: 1733428367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 4800
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d66a8cc97bbb7543812df681404952a
+      internalID: 70931289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffe3175efff9344ea68794da101ee7e
+      internalID: 533285452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 4320
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2875813ba52f9f45b2ed3243c0dfec1
+      internalID: -2134690497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 4320
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60442a152045935488bc2549d2a3c533
+      internalID: 1127740777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 4320
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9809de9dbc797c44691ad6efb71a338a
+      internalID: -1861544181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 4320
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a67d198ad341194286dc7e1bd886e05
+      internalID: -808208991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 4320
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3c75ca522086b44af80511369f1bc3
+      internalID: 1878213161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 4320
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2af933c06a77b7478d110260e727a30
+      internalID: -167442092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 4320
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70e284d558cac44d8b8ca5806c280b1
+      internalID: -1231130009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 4320
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bab8064f1406941bfbd43dd73d7f10
+      internalID: 1877652153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73768082d1834d64886a0f0d4dd47b4d
+      internalID: -811419894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3840
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bb45d9dfa1ab54b820378d99064b22
+      internalID: 13243443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3840
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf9e8cd0893ab944ae3022c854b61b9
+      internalID: -98952226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 3840
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396c3e40482ad824bb3015bc706f7622
+      internalID: 737753595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 3840
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d304ed7705519d144a3e5322fcb964af
+      internalID: -1659576174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 3840
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fad6dedd0f48184dbe12e5c7e67121e
+      internalID: 1815296687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 3840
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b7ec4b452437844a701c0f8e005711
+      internalID: 1702556426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 3840
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccef5e1a6fe4894a9edd5b32960eaaa
+      internalID: -2120033047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 3840
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6501dd2d6409e6e49a0760f55d3e268a
+      internalID: -1943446264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3360
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc07f8ccd1b14c4e9618c30ee1835ae
+      internalID: -1548977903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3360
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1619d5f927962f4ea9f11fa1279967f
+      internalID: -244277619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3360
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23639dd8eab2544492330454d67076f
+      internalID: 2120062603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 3360
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a089bef76a74024f848ddc5afa3c3d1
+      internalID: 1135890999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 3360
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9caab03d5f507e438867b7f2a618140
+      internalID: 841671143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 3360
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d703a3ccc09a97845b3cd78e52c93191
+      internalID: -1651821903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 3360
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6af501d5e11a5745bf6940f231bf850
+      internalID: 1538928249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 3360
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5300becd37b4d340a73808b6092dbeb
+      internalID: -1759097160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 3360
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5795f611c2f28f94c8332056e6d39967
+      internalID: -1194541089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d4aedc0a6a7a241a610281abb6bbf0
+      internalID: -131322753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2880
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24b1f801b25e014db1da17713ad30fc
+      internalID: -989916134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2880
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403e63488ae4f104fab21ab62abae816
+      internalID: -583822011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2880
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7e87b4fa8934048bc16b5ae27b6fab
+      internalID: 708253466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 2880
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec3d3cc61523f344b907d3781a09be3
+      internalID: 395246925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 2880
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b20d234de34d484ba98f0beab26689d
+      internalID: 510429883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2880
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e68ede64ec7a3409c87503676bc377
+      internalID: -921196031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 2880
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3351596c2b4424b8846d6faf73370f
+      internalID: -375599144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 2880
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bf5d14826ad124f87b4b4e8b4ca221
+      internalID: 1042107942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca4de9697257e14495f169839db2652
+      internalID: -390299205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2400
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d16f421ff0f22141aa1f8a9da3003a3
+      internalID: -439883465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2400
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94963ea118bc4ff4298f6c83fceeecc8
+      internalID: 1541151985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2400
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3da3001e84ef5940813737e9435cd71
+      internalID: -1915841818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 2400
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337ff167905da7e4c9d93865845defcc
+      internalID: -1368690406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 2400
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee381253d351d46975e782216bfa9f
+      internalID: 1588883009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2400
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c396e5233ce7f64ba2e33697e04fd64
+      internalID: -169759930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 2400
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e93104e8dc72ef4793a9a673da95c27
+      internalID: -185839655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 2400
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530140d807f688b4bbb5dec6665b183d
+      internalID: -436477544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee68cc8718493342ad5fdb8abba3cc2
+      internalID: 159282337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1920
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adb6270a2921b64480ee34b15838ce8
+      internalID: 567666462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1920
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d517b2fdcb1a28745ab36860f53d8655
+      internalID: -1229828661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1920
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda01d5f500df8146903cdb03d3fb293
+      internalID: -2133389401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1920
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc6bca225178584ab6e55caa25eb630
+      internalID: 1037897947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1920
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e28b995c7d2dba448df9cb63c96f3ce
+      internalID: 43303947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1920
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e35df3a420123c4591139a594cec44c
+      internalID: 972958372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1920
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9987b5ca25c94e439e241404a1cb049
+      internalID: 248908122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1920
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac9441543f46dd419efce97152edf51
+      internalID: -1295979631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2716938cfa6d38148b968785bb3517dd
+      internalID: 152048510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1440
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a484fa5d648a0644bc2d48a960536ab
+      internalID: 1204041429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1440
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7657e569a7339644599b84f2b24dacf5
+      internalID: 695650771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1440
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3665bcf3f775c63458a9355a9ec21367
+      internalID: -54185456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1440
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e930e412d2b0a458749ae1b4036daa
+      internalID: -889676718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1440
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11c095ce4fe95d42919fea063be48f7
+      internalID: 242815769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1440
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2bd1130656ed848bc45d0304182cae
+      internalID: 173194488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1440
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9a14401236ae64f8cfb6effdbf4e8d
+      internalID: -1523906127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1440
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239b0d52f8085ca44916c1a03961751d
+      internalID: -213441214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c32ec01adf5edd43a877fce6002a53e
+      internalID: -457420607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 960
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3782f9d36d80a3f4895917fd907d04e2
+      internalID: -268839656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 960
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c67ee45822ead429506d1e0687684e
+      internalID: -1593319599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 960
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bcd7d801c928347bb9ba1ed981cf05
+      internalID: 1661732543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 960
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5806901dea9f141937d5e00e233ff2
+      internalID: -625256869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 960
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bab83a0d90abd418a8852c25864402
+      internalID: 344967943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 960
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61f6fbdf9913a04299fa2f0afd17ce7
+      internalID: -1370637247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 960
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ace586c60e2d5459f5e1a7e95662c0
+      internalID: 852253914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 960
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87588bb7bad18f24caf9268849f997ad
+      internalID: -1774348053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a99cc2d7a8c78a4fa838afe1d2a71a2
+      internalID: 1081988434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 480
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbb33246972b38499abba3c01b29002
+      internalID: 1241853727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 480
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18657b0a59c279046a20ba0b8b1a9712
+      internalID: 1025830974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 480
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e95e266b8fc0b4d9407ccadc3856bf
+      internalID: 1869970274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 480
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74d6920381d7574891aa72c4e8f924d
+      internalID: -99088895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 480
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45ba6fd22335264b97b067c29d3cc6c
+      internalID: 1327504428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 480
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8f5318e6f86ca45b20820952bdec5d
+      internalID: -96605924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 480
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f89ed641b3d254b83b644209a6c4b0
+      internalID: -186103026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 480
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376faa492ebac954d88e2dc73343b462
+      internalID: -1508719553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9418cf85ad924745b2a4b1022a4a766
+      internalID: -827247513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34859d5758fca7d4cb2dff8b7609a8d1
+      internalID: -390951447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bb95d938fda01468a8e9d790eeada4
+      internalID: -2051821395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fda17d4ed9b51544bdd3928e6080f6c
+      internalID: -1753181356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 0
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769bb0b2e8afa28409cfdba8ceb2c9df
+      internalID: -844085695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a8ea2a362f9b94baed23a360c44f23
+      internalID: 1472929064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 0
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c611e7276fc7d47aeb94d2bbd36a07
+      internalID: 1255001677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 0
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c55492b616a21499b21ea895f4d80b
+      internalID: -2094779658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 0
+        width: 266.66666
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3659d965439ff374e8c92c0a1fcf1f87
+      internalID: -1368667596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fad7ca69f36e268449b91a885641db4e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Glitter-Sheet_0: -84209426
+      Glitter-Sheet_1: 319371156
+      Glitter-Sheet_10: -1685582509
+      Glitter-Sheet_100: -390951447
+      Glitter-Sheet_101: -2051821395
+      Glitter-Sheet_102: -1753181356
+      Glitter-Sheet_103: -844085695
+      Glitter-Sheet_104: 1472929064
+      Glitter-Sheet_105: 1255001677
+      Glitter-Sheet_106: -2094779658
+      Glitter-Sheet_107: -1368667596
+      Glitter-Sheet_11: -1304375455
+      Glitter-Sheet_12: 1234404654
+      Glitter-Sheet_13: 1157174818
+      Glitter-Sheet_14: -185395795
+      Glitter-Sheet_15: -1612615092
+      Glitter-Sheet_16: 1733428367
+      Glitter-Sheet_17: 70931289
+      Glitter-Sheet_18: 533285452
+      Glitter-Sheet_19: -2134690497
+      Glitter-Sheet_2: 276553866
+      Glitter-Sheet_20: 1127740777
+      Glitter-Sheet_21: -1861544181
+      Glitter-Sheet_22: -808208991
+      Glitter-Sheet_23: 1878213161
+      Glitter-Sheet_24: -167442092
+      Glitter-Sheet_25: -1231130009
+      Glitter-Sheet_26: 1877652153
+      Glitter-Sheet_27: -811419894
+      Glitter-Sheet_28: 13243443
+      Glitter-Sheet_29: -98952226
+      Glitter-Sheet_3: 1995425268
+      Glitter-Sheet_30: 737753595
+      Glitter-Sheet_31: -1659576174
+      Glitter-Sheet_32: 1815296687
+      Glitter-Sheet_33: 1702556426
+      Glitter-Sheet_34: -2120033047
+      Glitter-Sheet_35: -1943446264
+      Glitter-Sheet_36: -1548977903
+      Glitter-Sheet_37: -244277619
+      Glitter-Sheet_38: 2120062603
+      Glitter-Sheet_39: 1135890999
+      Glitter-Sheet_4: -1233448854
+      Glitter-Sheet_40: 841671143
+      Glitter-Sheet_41: -1651821903
+      Glitter-Sheet_42: 1538928249
+      Glitter-Sheet_43: -1759097160
+      Glitter-Sheet_44: -1194541089
+      Glitter-Sheet_45: -131322753
+      Glitter-Sheet_46: -989916134
+      Glitter-Sheet_47: -583822011
+      Glitter-Sheet_48: 708253466
+      Glitter-Sheet_49: 395246925
+      Glitter-Sheet_5: -1184174580
+      Glitter-Sheet_50: 510429883
+      Glitter-Sheet_51: -921196031
+      Glitter-Sheet_52: -375599144
+      Glitter-Sheet_53: 1042107942
+      Glitter-Sheet_54: -390299205
+      Glitter-Sheet_55: -439883465
+      Glitter-Sheet_56: 1541151985
+      Glitter-Sheet_57: -1915841818
+      Glitter-Sheet_58: -1368690406
+      Glitter-Sheet_59: 1588883009
+      Glitter-Sheet_6: -1131968395
+      Glitter-Sheet_60: -169759930
+      Glitter-Sheet_61: -185839655
+      Glitter-Sheet_62: -436477544
+      Glitter-Sheet_63: 159282337
+      Glitter-Sheet_64: 567666462
+      Glitter-Sheet_65: -1229828661
+      Glitter-Sheet_66: -2133389401
+      Glitter-Sheet_67: 1037897947
+      Glitter-Sheet_68: 43303947
+      Glitter-Sheet_69: 972958372
+      Glitter-Sheet_7: -2126445577
+      Glitter-Sheet_70: 248908122
+      Glitter-Sheet_71: -1295979631
+      Glitter-Sheet_72: 152048510
+      Glitter-Sheet_73: 1204041429
+      Glitter-Sheet_74: 695650771
+      Glitter-Sheet_75: -54185456
+      Glitter-Sheet_76: -889676718
+      Glitter-Sheet_77: 242815769
+      Glitter-Sheet_78: 173194488
+      Glitter-Sheet_79: -1523906127
+      Glitter-Sheet_8: -1091424674
+      Glitter-Sheet_80: -213441214
+      Glitter-Sheet_81: -457420607
+      Glitter-Sheet_82: -268839656
+      Glitter-Sheet_83: -1593319599
+      Glitter-Sheet_84: 1661732543
+      Glitter-Sheet_85: -625256869
+      Glitter-Sheet_86: 344967943
+      Glitter-Sheet_87: -1370637247
+      Glitter-Sheet_88: 852253914
+      Glitter-Sheet_89: -1774348053
+      Glitter-Sheet_9: -669189934
+      Glitter-Sheet_90: 1081988434
+      Glitter-Sheet_91: 1241853727
+      Glitter-Sheet_92: 1025830974
+      Glitter-Sheet_93: 1869970274
+      Glitter-Sheet_94: -99088895
+      Glitter-Sheet_95: 1327504428
+      Glitter-Sheet_96: -96605924
+      Glitter-Sheet_97: -186103026
+      Glitter-Sheet_98: -1508719553
+      Glitter-Sheet_99: -827247513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

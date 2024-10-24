@@ -23,6 +23,7 @@ public class BallMoviment : MonoBehaviour
     [SerializeField] private string ProximaFase;
     private bool podePular;
     [SerializeField] private Transform cameraTransform;
+    [SerializeField] private GameObject congragulations;
 
     void Start()
     {
@@ -30,6 +31,11 @@ public class BallMoviment : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         audioPlayer = GetComponent<AudioSource>();
         pontos = 0;
+        if(congragulations != null)
+        {
+            congragulations.SetActive(false);
+        }
+
     }
 
     void Update()
@@ -47,14 +53,15 @@ public class BallMoviment : MonoBehaviour
                 audioPlayer.PlayOneShot(pulo);
             }
         }
-        if (Input.GetKeyDown(KeyCode.L))
+
+        if (Input.GetKeyDown(KeyCode.Q)) // Virar camera
         {
-            viraCamera(true);
+            viraCamera();
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.R)) // Restart
         {
-            viraCamera(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
     }
@@ -68,20 +75,26 @@ public class BallMoviment : MonoBehaviour
             pontos++;
         }
 
-        if(other.gameObject.CompareTag("Portal") && contadorMoedas.checkPontos)
+        if(other.gameObject.CompareTag("Portal") && contadorMoedas.checkPontos && SceneManager.GetActiveScene().buildIndex == 1)
         {
-
             SceneManager.LoadScene(ProximaFase);
-            
+
+        }
+        
+        if(other.gameObject.CompareTag("Portal") && contadorMoedas.checkPontos && SceneManager.GetActiveScene().buildIndex != 1)
+        {
+            congragulations.SetActive(true);
+            velocidade = 0;
+        }
+
+        if(other.gameObject.CompareTag("Agua"))
+        {
+            estaVivo = false;
         }
     }
 
     private void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.CompareTag("Agua"))
-        {
-            estaVivo = false;
-        }
 
         if(other.gameObject.CompareTag("Chao"))
         {
@@ -89,22 +102,17 @@ public class BallMoviment : MonoBehaviour
         }
     }
 
-    private void OnCollisionStay(Collision other)
+    private void OnCollisionExit(Collision other) 
     {
-        
-    }
-
-        private void OnCollisionExit(Collision other) {
-        
         if(other.gameObject.CompareTag("Chao"))
         {
             podePular = false;
         }
     }
 
-    private void viraCamera(bool tras)
+    private void viraCamera()
     {
-        if (tras && cameraTransform.rotation != Quaternion.Euler(20.31f, -270, 0))
+        if (cameraTransform.rotation != Quaternion.Euler(20.31f, -270, 0))
         {
             cameraTransform.rotation = Quaternion.Euler(20.31f, -270, 0);
             velocidade *= -1;
@@ -114,6 +122,7 @@ public class BallMoviment : MonoBehaviour
             cameraTransform.rotation = Quaternion.Euler(20.31f, -90, 0);
             velocidade *= -1;
         }
+        
         //cameraTransform.rotation = new Vector3(cameraTransform.rotation.x, cameraTransform.rotation.y - 180, cameraTransform.rotation.z);
     }
 

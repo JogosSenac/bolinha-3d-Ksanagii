@@ -11,6 +11,7 @@ public class FallPlataform : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        rb.useGravity = false;
         rb.constraints = RigidbodyConstraints.FreezePosition | RigidbodyConstraints.FreezeRotation;
     }
 
@@ -24,6 +25,14 @@ public class FallPlataform : MonoBehaviour
 
     void Falling()
     {
+        rb.useGravity = true;
         rb.constraints &= ~RigidbodyConstraints.FreezePositionY;
+        //rb.WakeUp();
+        Invoke("DestroyGameObject",3);
+    }
+
+    void DestroyGameObject()
+    {
+        Destroy(this.gameObject);
     }
 }
